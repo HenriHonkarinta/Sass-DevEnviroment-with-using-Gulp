@@ -1,0 +1,12 @@
+----How to set-up sass and gulp enviroment for developing purposes----
+Different phases on setting-up the enviroment:
+
+* npm init ---- installs the package.json
+* npm install --save-dev gulp gulp-sass browser-sync  ------ this will install and save gulp, sass and browser-sync(dependencies) for development-enviroment and for into package.json
+* make gulp.js file to root directory(check out there how different tasks are made and what do they mean)
+* npm install -g gulp-cli ------- installs globally gulp-cli so you can see changes in browser and it updates automatically when you save files
+* *C to stop browser sync
+* npm start ----- starts again browsersync and grunt
+* make change to package.json to script there. Change "test" to "start" "gulp"
+* make index.html page where the compiler can reference to and there reference to css/style.css
+* If you follow these steps, then you're dev-enviroment is ready to be changed

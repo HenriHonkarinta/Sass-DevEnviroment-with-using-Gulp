@@ -1,0 +1,16 @@
+{
+  "name": "sass_gulp",
+  "version": "1.0.0",
+  "description": "sass and gulp dev-enviroment",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "Henri Honkarinta",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.2.1"
+  }
+}
